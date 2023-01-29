@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/skypro/static/css/main.841c57fc.css",
-    "main.js": "/skypro/static/js/main.ac219900.js",
+    "main.js": "/skypro/static/js/main.2e653f46.js",
     "index.html": "/skypro/index.html",
     "main.841c57fc.css.map": "/skypro/static/css/main.841c57fc.css.map",
-    "main.ac219900.js.map": "/skypro/static/js/main.ac219900.js.map"
+    "main.2e653f46.js.map": "/skypro/static/js/main.2e653f46.js.map"
   },
   "entrypoints": [
     "static/css/main.841c57fc.css",
-    "static/js/main.ac219900.js"
+    "static/js/main.2e653f46.js"
   ]
 }
