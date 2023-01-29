@@ -10,13 +10,13 @@ const Header = () => {
                 <Link to={'/'} >
                     <div  className={cls.item}>
                         <div className={cls.item}>Каталог</div>
-                        <img src="./icons/catalog.png" alt="no" className={cls.cartIcon}/>
+                        <img src="./images/catalog.png" alt="no" className={cls.cartIcon}/>
                     </div>
                 </Link>
                 <Link to={'/cart'}>
                     <div className={cls.item}>
                         <div>Корзина</div>
-                        <img src="./icons/cart.png" alt="no" className={cls.cartIcon}/>
+                        <img src="./images/cartHeader.png" alt="no" className={cls.cartIcon}/>
                     </div>
                 </Link>
             </div>
