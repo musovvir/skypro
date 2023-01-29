@@ -1,7 +1,6 @@
 {
   "name": "skypro",
   "version": "0.1.0",
-  "homepage": "https://musovvir.github.io/skypro",
   "private": true,
   "devDependencies": {
     "@reduxjs/toolkit": "^1.9.1",
