@@ -10,13 +10,19 @@ const Header = () => {
                 <Link to={'/'} >
                     <div  className={cls.item}>
                         <div className={cls.item}>Каталог</div>
-                        <img src="./images/catalog.png" alt="no" className={cls.cartIcon}/>
+                        <img src="https://github.com/musovvir/images/blob/main/catalog.png?raw=true"
+                             alt="no"
+                             className={cls.cartIcon}
+                        />
                     </div>
                 </Link>
                 <Link to={'/cart'}>
                     <div className={cls.item}>
                         <div>Корзина</div>
-                        <img src="./images/cartHeader.png" alt="no" className={cls.cartIcon}/>
+                        <img src="https://github.com/musovvir/images/blob/main/cartHeader.png?raw=true"
+                             alt="no"
+                             className={cls.cartIcon}
+                        />
                     </div>
                 </Link>
             </div>

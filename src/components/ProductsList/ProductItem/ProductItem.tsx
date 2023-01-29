@@ -12,8 +12,8 @@ const ProductItem = ({ product, addProduct }: ProductItemProps) => {
     return (
         <div className={cls.productItem}>
             <div className={cls.icons}>
-                <img src="./images/cart.png" alt="" onClick={() => addProduct(product)}/>
-                <img src="./images/like.png" alt=""/>
+                <img src="https://github.com/musovvir/images/blob/main/cart.png?raw=true" alt="" onClick={() => addProduct(product)}/>
+                <img src="https://github.com/musovvir/images/blob/main/like.png?raw=true" alt=""/>
             </div>
             <img src={image} alt="ff" width="379" height="250"></img>
             <div className={cls.title}>

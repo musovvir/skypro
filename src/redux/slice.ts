@@ -14,7 +14,7 @@ const initialState: initialStateProps = {
     products: [
         {
             id: 1,
-            image: './images/image1.jpg',
+            image: 'https://github.com/musovvir/images/blob/main/image1.jpg?raw=true',
             title: 'Кровать TATRAN',
             subTitle: 'Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.',
             price: '120 000 руб.',
@@ -22,7 +22,7 @@ const initialState: initialStateProps = {
         },
         {
             id: 2,
-            image: './images/image2.jpg',
+            image: 'https://github.com/musovvir/images/blob/main/image2.jpg?raw=true',
             title: 'Кресло VILORA',
             subTitle: 'Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань. ',
             price: '21 000 руб.',
@@ -30,7 +30,7 @@ const initialState: initialStateProps = {
         },
         {
             id: 3,
-            image: './images/image3.jpg',
+            image: 'https://github.com/musovvir/images/blob/main/image3.jpg?raw=true',
             title: 'Стол MENU',
             subTitle: 'Европейский дуб - отличается особой прочностью и стабильностью.',
             price: '34 000 руб.',
@@ -38,7 +38,7 @@ const initialState: initialStateProps = {
         },
         {
             id: 4,
-            image: './images/image4.jpg',
+            image: 'https://github.com/musovvir/images/blob/main/image4.jpg?raw=true',
             title: 'Диван ASKESTA',
             subTitle: 'Благодаря защелкивающемуся механизму диван легко раскладывается в комфортную кровать',
             price: '68 000 руб.',
@@ -46,7 +46,7 @@ const initialState: initialStateProps = {
         },
         {
             id: 5,
-            image: './images/image5.jpg',
+            image: 'https://github.com/musovvir/images/blob/main/image5.jpg?raw=true',
             title: 'Кресло LUNAR',
             subTitle: 'Прекрасно переносит солнечные лучи, перепады влажности и любые осадки',
             price: '40 000 руб.',
@@ -54,7 +54,7 @@ const initialState: initialStateProps = {
         },
         {
             id: 6,
-            image: './images/image6.jpg',
+            image: 'https://github.com/musovvir/images/blob/main/image6.jpg?raw=true',
             title: 'Шкаф Nastan',
             subTitle: 'Мебель может быть оснащена разнообразными системами подсветки.',
             price: '80 000 руб.',
