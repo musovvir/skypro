@@ -24,5 +24,5 @@
 ## Cart для планшетов
 <img width="764" alt="Снимок экрана 2023-01-29 в 15 23 55" src="https://user-images.githubusercontent.com/64415374/215326104-5161a952-cc84-4625-87dd-78ee688e3f54.png">
 
-## Cart в мобильных устройств
+## Cart для мобильных устройств
 <img width="591" alt="Снимок экрана 2023-01-29 в 15 24 08" src="https://user-images.githubusercontent.com/64415374/215326111-2dca0710-6667-446c-b7f6-d4e2930d1c2a.png">
