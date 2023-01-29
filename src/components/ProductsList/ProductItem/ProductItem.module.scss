@@ -1,0 +1,42 @@
+.productItem {
+  width: 379px;
+  position: relative;
+
+  .icons {
+    display: none;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+
+    img {
+      padding-left: 26px;
+    }
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 10px 0 8px 0;
+  }
+
+  .subTitle {
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    padding-bottom: 12px;
+  }
+
+  .price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+.productItem:hover {
+  .icons {
+    display: block;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,162 @@
+.cart {
+  width: 1200px;
+  margin: auto;
+
+  .cartContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+
+    .titles {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .content {
+
+      .footerContent {
+        display: flex;
+
+        .buttons {
+          text-align: center;
+          margin-top: 50px;
+
+          .clearBtn {
+            width: 200px;
+            height: 37px;
+            border: 1px solid #040404;
+            border-radius: 20px;
+            font-family: 'Montserrat';
+            line-height: 20px;
+            background: none;
+            cursor: pointer;
+          }
+
+          .continueBtn {
+            width: 200px;
+            height: 37px;
+            border: 1px solid #040404;
+            border-radius: 20px;
+            font-family: 'Montserrat';
+            line-height: 20px;
+            background: black;
+            color: white;
+            margin-left: 7px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .ordering {
+      width: 379px;
+      height: 556px;
+      background: #F7F6F6;
+      border-radius: 20px;
+
+      .orderTitle {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 42px 0 35px 0;
+      }
+
+      .info {
+        display: flex;
+        justify-content: center;
+
+        .infoCard {
+
+          .infoDivider {
+            width: 288px;
+            height: 0;
+            border: 0.5px solid #CACDD8;
+            margin: 3px 0 41px 0;
+          }
+
+        }
+      }
+
+      .sum {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+      }
+
+      .button {
+        text-align: center;
+        margin-top: 18px;
+
+        .btn {
+          width: 290px;
+          height: 41px;
+          border: 1px solid #040404;
+          border-radius: 20px;
+          font-family: 'Montserrat';
+          font-size: 16px;
+          line-height: 20px;
+          background: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .cart {
+    width: 736px;
+    margin-left: 25px;
+    justify-content: center;
+  }
+
+  .cartContent {
+    display: block !important;
+  }
+
+  .titles {
+    font-size: 16px;
+  }
+
+  .ordering {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .cart {
+    width: 360px;
+    margin-left: 0;
+  }
+
+  .titles {
+    display: none !important;
+  }
+
+  .ordering {
+    max-width: 343px;
+    margin-left: 16px;
+  }
+
+  .buttons {
+   padding-left: 16px;
+  }
+
+  .clearBtn {
+    max-width: 166px;
+    font-size: 12px;
+  }
+
+  .continueBtn {
+    max-width: 163px;
+    font-size: 12px;
+  }
+
+  .infoCard{
+    font-size: 14px !important;
+  }
+}
